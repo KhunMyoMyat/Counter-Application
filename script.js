@@ -3,7 +3,7 @@
   let count = 0;
 
   const counter = document.querySelector(".counter-process");
-  //   const counterContainer = document.querySelector(".counter");
+  const counterContainer = document.querySelector(".counter");
 
   buttons.forEach(function (button) {
     button.addEventListener("click", function () {
@@ -14,6 +14,16 @@
       }
 
       counter.textContent = count;
+
+      if (count > 0) {
+        counterContainer.classList.remove("negative");
+        counterContainer.classList.add("positive");
+      } else if (count < 0) {
+        counterContainer.classList.remove("positive");
+        counterContainer.classList.add("negative");
+      } else {
+        counterContainer.classList.remove("positive", "negative");
+      }
     });
   });
 })();
