@@ -51,6 +51,7 @@ body {
   border-radius: 5px;
   padding: 8px 13px;
   cursor: pointer;
+
   transition: background 0.3s;
 }
 
