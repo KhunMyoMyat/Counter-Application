@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #452828, #020c4c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: linear-gradient(to bottom, #090303, #06064d);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.heading,
+.counter-process {
+  color: #fff;
+  margin: 0;
+}
+
+.counter {
+  background: #030319;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 2px solid transparent;
+}
