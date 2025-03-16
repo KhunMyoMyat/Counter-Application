@@ -37,3 +37,31 @@ body {
   font-size: 24px;
   border: 2px solid transparent;
 }
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn-counter {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 13px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-counter:hover {
+  background: #0a1e9c;
+}
+
+.positive {
+  border-color: green;
+}
+
+.negative {
+  border-color: red;
+}
